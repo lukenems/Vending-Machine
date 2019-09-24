@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Route exact path="/" render={() => <VendingMachine />} />
+
         <Route exact path="/chips" render={() => <Chips />} />
         <Route exact path="/soda" render={() => <Soda />} />
         <Route exact path="/sardines" render={() => <Sardines />} />
